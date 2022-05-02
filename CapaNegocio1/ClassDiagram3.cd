@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CapaNegocio1.Alumno">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAQCAAAEAgACA=</HashCode>
+      <FileName>Alumno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaNegocio1.Persona" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQQQAAIEEEAAAABAAIAAABCAAEAQAABABAA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaNegocio1.Ingresante">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAABAAAAAQAAAQgAAAGAAAAAoAAAAAAAAAAA=</HashCode>
+      <FileName>Ingresante.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaNegocio1.Regular">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAQBQAAAAEAAAAAAgAAAAAAgAAIAIAAAAAAAAI=</HashCode>
+      <FileName>Regular.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaNegocio1.Docente">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAwAQQAIAEAAAAgAgAAIAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Docente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaNegocio1.Administrativo">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAQAARAAAAAQAAAAgAAAAAAAAAJAAAAQQABAEA=</HashCode>
+      <FileName>Administrativo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
