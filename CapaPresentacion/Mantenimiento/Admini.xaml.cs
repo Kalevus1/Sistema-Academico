@@ -26,7 +26,7 @@ namespace CapaPresentacion.Mantenimiento
         }
         static CapaNegocio1.Administrativo administrativo = new CapaNegocio1.Administrativo();
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnEscribir_Click(object sender, RoutedEventArgs e)
         {
             administrativo.Nombres = txtNombre.Text.Trim();
             administrativo.Apellidos = txtApellidos.Text.Trim();
@@ -40,44 +40,53 @@ namespace CapaPresentacion.Mantenimiento
             administrativo.Especialidad = txtEspecialidad.Text.Trim();
             administrativo.Puesto = txtPuesto.Text.Trim();
             administrativo.Sueldo = txtSueldo.Text.Trim();
+            MessageBox.Show("Se ingresaron los datos correctamente");
         }
-        private void btnLeer_Click(object sender, RoutedEventArgs e)
+
+        private void btnLeer_Click_1(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("\nNombres: " + administrativo.Nombres + "Apellidos: " + administrativo.Apellidos +
+            MessageBox.Show("\nNombres: " + administrativo.Nombres + "\nApellidos: " + administrativo.Apellidos +
                 "\nCodigo: " + administrativo.Codigo + "\nCorreo: " + administrativo.Correo +
                 "\nDomicilio: " + administrativo.Domicilio + "\nLugar de Nacimiento: " + administrativo.LugarNac +
                 "\nFecha de Nacimiento: " + administrativo.FechaNac + "\nCargo: " + administrativo.Cargo +
                 "\nEspecialidad: " + administrativo.Especialidad + "\nPuesto: " + administrativo.Puesto +
                 "\nSueldo: " + administrativo.Sueldo);
         }
+
         private void btnMetodo1_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("El metodo no ha sido implementado");
+            MessageBox.Show("Metodo en implementación", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Question);
         }
 
         private void btnMetodo2_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("El metodo no ha sido implementado");
+            MessageBox.Show("Metodo en implementación", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Question);
         }
 
         private void btnMetodo3_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("El metodo no ha sido implementado");
+            MessageBox.Show("Metodo en implementación", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Question);
         }
 
         private void btnMetodo4_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("El metodo no ha sido implementado");
+            MessageBox.Show("Metodo en implementación", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Question);
         }
 
         private void btnMetodo5_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("El metodo no ha sido implementado");
+            MessageBox.Show("Metodo en implementación", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Question);
         }
 
         private void btnMetodo6_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("El metodo no ha sido implementado");
+            MessageBox.Show("Metodo en implementación", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Question);
         }
     }
 }

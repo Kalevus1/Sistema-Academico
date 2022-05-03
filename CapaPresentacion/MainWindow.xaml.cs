@@ -48,5 +48,29 @@ namespace CapaPresentacion
             Mantenimiento.Docent docente = new Mantenimiento.Docent();
             docente.Show();
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Esta pagina se encuentra en mantenimiento", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Error);
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Esta pagina se encuentra en mantenimiento", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Error);
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Esta pagina se encuentra en mantenimiento", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Error);
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Esta pagina se encuentra en mantenimiento", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Error);
+        }
     }
 }

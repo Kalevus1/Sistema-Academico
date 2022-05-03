@@ -22,10 +22,10 @@
                 <Button Content="Administrativo" Background="#FFF0F0F0" BorderBrush="#FFF0F0F0" Click="Button_Click_2"/>
                 <Button Content="Docente" Background="#FFF0F0F0" BorderBrush="#FFF0F0F0" Click="Button_Click_3"/>
             </MenuItem>
-            <Button Content="Proceso" BorderBrush="#FFF0F0F0" Background="#FFF0F0F0"/>
-            <Button Content="Seguridad" Background="#FFF0F0F0" BorderBrush="#FFF0F0F0"/>
-            <Button Content="Reportes" Background="#FFF0F0F0" BorderBrush="#FFF0F0F0"/>
-            <Button Content="Ayuda" BorderBrush="#FFF0F0F0" Background="#FFF0F0F0"/>
+            <Button Content="Proceso" BorderBrush="#FFF0F0F0" Background="#FFF0F0F0" Click="Button_Click_4"/>
+            <Button Content="Seguridad" Background="#FFF0F0F0" BorderBrush="#FFF0F0F0" Click="Button_Click_5"/>
+            <Button Content="Reportes" Background="#FFF0F0F0" BorderBrush="#FFF0F0F0" Click="Button_Click_6"/>
+            <Button Content="Ayuda" BorderBrush="#FFF0F0F0" Background="#FFF0F0F0" Click="Button_Click_7"/>
         </Menu>
     </Grid>
 </Window>

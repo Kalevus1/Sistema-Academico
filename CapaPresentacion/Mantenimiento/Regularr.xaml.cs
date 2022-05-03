@@ -26,7 +26,7 @@ namespace CapaPresentacion.Mantenimiento
         }
         static CapaNegocio1.Regular regular = new CapaNegocio1.Regular();
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnEscribir_Click(object sender, RoutedEventArgs e)
         {
             regular.Nombres = txtNombre.Text.Trim();
             regular.Apellidos = txtApellidos.Text.Trim();
@@ -40,44 +40,53 @@ namespace CapaPresentacion.Mantenimiento
             regular.Cursos = txtCursos.Text.Trim();
             regular.Notas = txtNotas.Text.Trim();
             regular.Semestre = txtSemestre.Text.Trim();
+            MessageBox.Show("Se ingresaron los datos correctamente");
         }
-        private void btnLeer_Click(object sender, RoutedEventArgs e)
+
+        private void btnLeer_Click_1(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("\nNombres: " + regular.Nombres + "Apellidos: " + regular.Apellidos +
+            MessageBox.Show("\nNombres: " + regular.Nombres + "\nApellidos: " + regular.Apellidos +
                 "\nCodigo: " + regular.Codigo + "\nCorreo: " + regular.Correo +
                 "\nDomicilio: " + regular.Domicilio + "\nLugar de Nacimiento: " + regular.LugarNac +
                 "\nFecha de Nacimiento: " + regular.FechaNac + "\nCreditos: " + regular.Creditos +
                 "\nCursos: " + regular.Cursos + "\nNotas: " + regular.Notas +
                 "\nSemestre: " + regular.Semestre);
         }
-        private void btnMetodo1_Click(object sender, RoutedEventArgs e)
+
+        private void btnMetodo1_Click_1(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("El metodo no ha sido implementado");
+            MessageBox.Show("Metodo en implementación", "Lo sentimos",
+                  MessageBoxButton.OK, MessageBoxImage.Question);
         }
 
         private void btnMetodo2_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("El metodo no ha sido implementado");
+            MessageBox.Show("Metodo en implementación", "Lo sentimos",
+                 MessageBoxButton.OK, MessageBoxImage.Question);
         }
 
         private void btnMetodo3_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("El metodo no ha sido implementado");
+            MessageBox.Show("Metodo en implementación", "Lo sentimos",
+                 MessageBoxButton.OK, MessageBoxImage.Question);
         }
 
         private void btnMetodo4_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("El metodo no ha sido implementado");
+            MessageBox.Show("Metodo en implementación", "Lo sentimos",
+                 MessageBoxButton.OK, MessageBoxImage.Question);
         }
 
         private void btnMetodo5_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("El metodo no ha sido implementado");
+            MessageBox.Show("Metodo en implementación", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Question);
         }
 
         private void btnMetodo6_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("El metodo no ha sido implementado");
+            MessageBox.Show("Metodo en implementación", "Lo sentimos",
+                 MessageBoxButton.OK, MessageBoxImage.Question);
         }
     }
 }

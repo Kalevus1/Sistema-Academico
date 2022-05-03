@@ -8,34 +8,33 @@
       Title="Docente" Height="564.05" Background="#FF80BDFB" Width="617.355">
 
     <Grid>
-        <Label Content="AFP:" HorizontalAlignment="Left" Margin="17,386,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtAFP" HorizontalAlignment="Left" Height="23" Margin="146,389,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <TextBox x:Name="txtProfesion" HorizontalAlignment="Left" Height="23" Margin="146,442,0,-46" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <Label Content="Profesión:" HorizontalAlignment="Left" Margin="17,442,0,-49" VerticalAlignment="Top"/>
-        <Label Content="Cursos:" HorizontalAlignment="Left" Margin="17,488,0,-95" VerticalAlignment="Top"/>
-        <Button x:Name="btnEscribir" Content="Escribir" HorizontalAlignment="Left" Margin="320,18,0,0" VerticalAlignment="Top" Width="95" Height="26" Background="#FFBBDDFF" BorderBrush="White"/>
-        <Button x:Name="btnLeer" Content="Leer" HorizontalAlignment="Left" Margin="320,64,0,0" VerticalAlignment="Top" Width="95" Height="23" Background="#FFBBDDFF" BorderBrush="White"/>
-        <Button x:Name="btnMetodo1" Content="Metodo 1" HorizontalAlignment="Left" Margin="468,18,0,0" VerticalAlignment="Top" Width="95" Height="26" BorderBrush="#FF80BDFB" Background="WhiteSmoke"/>
-        <Button x:Name="btnMetodo2" Content="Metodo 2" HorizontalAlignment="Left" Margin="468,64,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke"/>
-        <Button x:Name="Metodo_3" Content="Metodo 3" HorizontalAlignment="Left" Margin="468,115,0,0" VerticalAlignment="Top" Width="95" Height="26" BorderBrush="#FF80BDFB" Background="WhiteSmoke"/>
-        <Button x:Name="btnMetodo4" Content="Metodo 4" HorizontalAlignment="Left" Margin="468,168,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke"/>
         <Label Content="Nombre:&#xA;" HorizontalAlignment="Left" Margin="11,14,0,0" VerticalAlignment="Top" Height="27"/>
         <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="146,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
         <Label Content="Apellidos:&#xA;" HorizontalAlignment="Left" Margin="11,61,0,0" VerticalAlignment="Top" Height="26"/>
         <TextBox x:Name="txtApellidos" HorizontalAlignment="Left" Height="23" Margin="146,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <TextBox x:Name="txtCodigo" HorizontalAlignment="Left" Height="23" Margin="146,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
         <Label Content="Código:&#xA;" HorizontalAlignment="Left" Margin="11,115,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.579,0.192" Height="32"/>
+        <TextBox x:Name="txtCodigo" HorizontalAlignment="Left" Height="23" Margin="146,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
         <Label Content="Correo:" HorizontalAlignment="Left" Margin="11,165,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Height="23" Margin="146,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <TextBox x:Name="txtDomicilio" HorizontalAlignment="Left" Height="23" Margin="146,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
         <Label Content="Domicilio:" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDomicilio" HorizontalAlignment="Left" Height="23" Margin="146,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
         <Label Content="Lugar Nacimiento:" HorizontalAlignment="Left" Margin="10,276,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLugarNac" HorizontalAlignment="Left" Height="23" Margin="147,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
         <Label Content="Fecha Nacimiento:&#xA;" HorizontalAlignment="Left" Margin="11,334,0,0" VerticalAlignment="Top" Height="28"/>
         <DatePicker x:Name="dateFechaNac" HorizontalAlignment="Left" Margin="146,338,0,0" VerticalAlignment="Top" BorderBrush="#FF80BDFB"/>
-        <Button x:Name="btnMetodo5" Content="Metodo 5" HorizontalAlignment="Left" Margin="468,221,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke"/>
-        <Button x:Name="btnMetodo6" Content="Metodo6" HorizontalAlignment="Left" Margin="468,280,0,0" VerticalAlignment="Top" Width="95" Height="22" BorderBrush="#FF80BDFB" Background="WhiteSmoke"/>
-        <TextBox x:Name="txtLugarNac" HorizontalAlignment="Left" Height="23" Margin="147,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="AFP:" HorizontalAlignment="Left" Margin="17,386,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAFP" HorizontalAlignment="Left" Height="23" Margin="146,389,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Profesión:" HorizontalAlignment="Left" Margin="17,442,0,-49" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtProfesion" HorizontalAlignment="Left" Height="23" Margin="146,442,0,-46" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Cursos:" HorizontalAlignment="Left" Margin="17,488,0,-95" VerticalAlignment="Top"/>
         <TextBox x:Name="txtCursos" HorizontalAlignment="Left" Height="23" Margin="147,492,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
-
+        <Button x:Name="btnEscribir" Content="Escribir" HorizontalAlignment="Left" Margin="320,18,0,0" VerticalAlignment="Top" Width="95" Height="26" Background="#FFBBDDFF" BorderBrush="White" Click="btnEscribir_Click"/>
+        <Button x:Name="btnLeer" Content="Leer" HorizontalAlignment="Left" Margin="320,64,0,0" VerticalAlignment="Top" Width="95" Height="23" Background="#FFBBDDFF" BorderBrush="White" Click="btnLeer_Click_1"/>
+        <Button x:Name="btnMetodo1" Content="Metodo 1" HorizontalAlignment="Left" Margin="468,18,0,0" VerticalAlignment="Top" Width="95" Height="26" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo1_Click_1"/>
+        <Button x:Name="btnMetodo2" Content="Metodo 2" HorizontalAlignment="Left" Margin="468,64,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo2_Click_1"/>
+        <Button x:Name="btnMetodo3" Content="Metodo 3" HorizontalAlignment="Left" Margin="468,115,0,0" VerticalAlignment="Top" Width="95" Height="26" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="Metodo_3_Click"/>
+        <Button x:Name="btnMetodo4" Content="Metodo 4" HorizontalAlignment="Left" Margin="468,168,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo4_Click_1"/>
+        <Button x:Name="btnMetodo5" Content="Metodo 5" HorizontalAlignment="Left" Margin="468,221,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo5_Click_1"/>
+        <Button x:Name="btnMetodo6" Content="Metodo6" HorizontalAlignment="Left" Margin="468,280,0,0" VerticalAlignment="Top" Width="95" Height="22" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo6_Click_1"/>
     </Grid>
 </Window>
