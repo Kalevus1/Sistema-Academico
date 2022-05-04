@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Sistema Academico UAC" Height="450" Width="818.148" Foreground="White" OpacityMask="White">
     <Window.Background>
-        <ImageBrush Opacity="0.75" ImageSource="C:\Users\Kalevus\Downloads\Sistema-Academico-master\CapaPresentacion\Imagenes\as.png"/>
+        <ImageBrush Opacity="0.75" ImageSource="C:\Users\Kalevus\source\repos\Sistema-Academico-master\CapaPresentacion\Imagenes\as.png"/>
     </Window.Background>
     <Grid>
         <Grid.ColumnDefinitions>

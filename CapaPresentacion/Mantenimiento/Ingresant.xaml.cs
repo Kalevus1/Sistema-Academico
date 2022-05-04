@@ -36,7 +36,8 @@ namespace CapaPresentacion.Mantenimiento
             ingresante.LugarNac = txtLugarNac.Text.Trim();
             DateTime? FechaNac = dateFechaNac.SelectedDate;
             ingresante.FechaNac = FechaNac.Value;
-            ingresante.Fechaing = txtFechIngre.Text.Trim();
+            DateTime? FechaIng = dateFechaIng.SelectedDate;
+            ingresante.Fechaing = FechaIng.Value;
             ingresante.Metodoingreso = txtMetIngre.Text.Trim();
             ingresante.Puesto = txtPuesto.Text.Trim();
             MessageBox.Show("Se ingresaron los datos correctamente");

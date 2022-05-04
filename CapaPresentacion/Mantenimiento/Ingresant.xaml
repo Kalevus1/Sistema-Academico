@@ -27,8 +27,8 @@
         <TextBox x:Name="txtLugarNac" HorizontalAlignment="Left" Height="23" Margin="153,395,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
         <Label Content="Fecha Nacimiento:&#xA;" HorizontalAlignment="Left" Margin="18,449,0,0" VerticalAlignment="Top" Height="28" FontWeight="Bold" Foreground="White"/>
         <DatePicker x:Name="dateFechaNac" HorizontalAlignment="Left" Margin="153,453,0,0" VerticalAlignment="Top" BorderBrush="#FF80BDFB"/>
+        <DatePicker x:Name="dateFechaIng" HorizontalAlignment="Left" Margin="153,501,0,0" VerticalAlignment="Top" BorderBrush="#FF5597DC"/>
         <Label Content="Fecha de Ingreso:" HorizontalAlignment="Left" Margin="18,499,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White"/>
-        <TextBox x:Name="txtFechIngre" HorizontalAlignment="Left" Height="24" Margin="153,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
         <Label Content="Metodo de Ingreso:" HorizontalAlignment="Left" Margin="18,552,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White"/>
         <TextBox x:Name="txtMetIngre" HorizontalAlignment="Left" Height="24" Margin="153,554,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
         <Label Content="Puesto:" HorizontalAlignment="Left" Margin="18,598,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White"/>
