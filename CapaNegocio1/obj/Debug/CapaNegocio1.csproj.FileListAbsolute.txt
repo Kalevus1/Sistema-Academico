@@ -1,0 +1,12 @@
+C:\Users\Kalevus\source\repos\Sistema Academico\CapaNegocio1\bin\Debug\CapaNegocio1.dll
+C:\Users\Kalevus\source\repos\Sistema Academico\CapaNegocio1\bin\Debug\CapaNegocio1.pdb
+C:\Users\Kalevus\source\repos\Sistema Academico\CapaNegocio1\obj\Debug\CapaNegocio1.csproj.AssemblyReference.cache
+C:\Users\Kalevus\source\repos\Sistema Academico\CapaNegocio1\obj\Debug\CapaNegocio1.csproj.CoreCompileInputs.cache
+C:\Users\Kalevus\source\repos\Sistema Academico\CapaNegocio1\obj\Debug\CapaNegocio1.dll
+C:\Users\Kalevus\source\repos\Sistema Academico\CapaNegocio1\obj\Debug\CapaNegocio1.pdb
+C:\Users\Kalevus\source\repos\Sistema Academico Git\CapaNegocio1\bin\Debug\CapaNegocio1.dll
+C:\Users\Kalevus\source\repos\Sistema Academico Git\CapaNegocio1\bin\Debug\CapaNegocio1.pdb
+C:\Users\Kalevus\source\repos\Sistema Academico Git\CapaNegocio1\obj\Debug\CapaNegocio1.csproj.AssemblyReference.cache
+C:\Users\Kalevus\source\repos\Sistema Academico Git\CapaNegocio1\obj\Debug\CapaNegocio1.csproj.CoreCompileInputs.cache
+C:\Users\Kalevus\source\repos\Sistema Academico Git\CapaNegocio1\obj\Debug\CapaNegocio1.dll
+C:\Users\Kalevus\source\repos\Sistema Academico Git\CapaNegocio1\obj\Debug\CapaNegocio1.pdb
