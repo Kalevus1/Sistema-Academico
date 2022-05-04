@@ -8,6 +8,11 @@
       Title="Administrativo" Height="758.375" Background="#FF2A72BD" Width="623.75">
 
     <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="342" Margin="298,385,-24,0" VerticalAlignment="Top" Width="342">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="Diseño_sin_título__3_-removebg-preview.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
         <Label Content="Nombre:&#xA;" HorizontalAlignment="Left" Margin="18,138,0,0" VerticalAlignment="Top" Height="26" FontWeight="Bold" Foreground="White"/>
         <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="22" Margin="153,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
         <Label Content="Apellidos:&#xA;" HorizontalAlignment="Left" Margin="18,184,0,0" VerticalAlignment="Top" Height="26" FontWeight="Bold" Foreground="White"/>
@@ -41,11 +46,6 @@
         <Rectangle HorizontalAlignment="Left" Height="100" Margin="0" VerticalAlignment="Top" Width="630" Fill="#FF04C0F2"/>
         <Label Content="Datos de Personal Administrativo" HorizontalAlignment="Left" Margin="142,31,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White" FontSize="22" Width="359"/>
         <Separator HorizontalAlignment="Left" Height="9" Margin="135,71,0,0" VerticalAlignment="Top" Width="371" Background="White"/>
-        <Rectangle HorizontalAlignment="Left" Height="342" Margin="298,385,-24,0" VerticalAlignment="Top" Width="342">
-            <Rectangle.Fill>
-                <ImageBrush ImageSource="Diseño_sin_título__3_-removebg-preview.png"/>
-            </Rectangle.Fill>
-        </Rectangle>
         <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Source="unnamed-removebg-preview.png"/>
     </Grid>
 </Window>

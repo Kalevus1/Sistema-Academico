@@ -8,6 +8,11 @@
       Title="Docente" Height="665.05" Background="#FF2A72BD" Width="617.355" Foreground="#FF1F5EA0">
 
     <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="275" Margin="334,359,0,0" VerticalAlignment="Top" Width="275">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="Diseño_sin_título-removebg-preview.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
         <Label Content="Nombre:&#xA;" HorizontalAlignment="Left" Margin="19,116,0,0" VerticalAlignment="Top" Height="27" Foreground="White" FontWeight="Bold"/>
         <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="154,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
         <Label Content="Apellidos:&#xA;" HorizontalAlignment="Left" Margin="19,163,0,0" VerticalAlignment="Top" Height="26" Foreground="White" FontWeight="Bold"/>
@@ -35,14 +40,9 @@
         <Button x:Name="btnMetodo3" Content="Metodo 3" HorizontalAlignment="Left" Margin="476,217,0,0" VerticalAlignment="Top" Width="95" Height="26" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="Metodo_3_Click"/>
         <Button x:Name="btnMetodo4" Content="Metodo 4" HorizontalAlignment="Left" Margin="476,270,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo4_Click_1"/>
         <Button x:Name="btnMetodo5" Content="Metodo 5" HorizontalAlignment="Left" Margin="476,323,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo5_Click_1"/>
-        <Button x:Name="btnMetodo6" Content="Metodo6" HorizontalAlignment="Left" Margin="476,382,0,0" VerticalAlignment="Top" Width="95" Height="22" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo6_Click_1"/>
+        <Button x:Name="btnMetodo6" Content="Metodo6" HorizontalAlignment="Left" Margin="476,372,0,0" VerticalAlignment="Top" Width="95" Height="22" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo6_Click_1"/>
         <Rectangle HorizontalAlignment="Left" Height="100" Margin="0" VerticalAlignment="Top" Width="630" Fill="#FF04C0F2"/>
         <Label Content="Datos de Docente" HorizontalAlignment="Left" Margin="223,30,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White" FontSize="22" Width="200"/>
-        <Rectangle HorizontalAlignment="Left" Height="275" Margin="334,359,0,0" VerticalAlignment="Top" Width="275">
-            <Rectangle.Fill>
-                <ImageBrush ImageSource="Diseño_sin_título-removebg-preview.png"/>
-            </Rectangle.Fill>
-        </Rectangle>
         <Separator HorizontalAlignment="Left" Height="9" Margin="205,71,0,0" VerticalAlignment="Top" Width="234" Background="White"/>
         <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Source="unnamed-removebg-preview.png"/>
     </Grid>
