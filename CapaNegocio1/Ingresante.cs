@@ -8,11 +8,11 @@ namespace CapaNegocio1
     public class Ingresante : Alumno
     {
         private string metodoingreso;
-        private string fechaing;
+        private DateTime fechaing;
         private string puesto;
 
         public string Metodoingreso { get => metodoingreso; set => metodoingreso = value; }
-        public string Fechaing { get => fechaing; set => fechaing = value; }
+        public DateTime Fechaing { get => fechaing; set => fechaing = value; }
         public string Puesto { get => puesto; set => puesto = value; }
 
         public string Actualizar()
