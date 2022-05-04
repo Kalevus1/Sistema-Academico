@@ -166,5 +166,59 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\logo-light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\twi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\fac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\ccc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\you.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\lupa2-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mantenimiento\Diseño sin título %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mantenimiento\Diseño sin título.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mantenimiento\Diseño_sin_título-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mantenimiento\Diseño_sin_título-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mantenimiento\Diseño_sin_título__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mantenimiento\Diseño_sin_título__2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mantenimiento\Diseño_sin_título__2_-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mantenimiento\Diseño_sin_título__2_-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mantenimiento\Diseño_sin_título__3_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mantenimiento\unnamed-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="s.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

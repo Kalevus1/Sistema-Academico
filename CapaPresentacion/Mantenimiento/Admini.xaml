@@ -5,39 +5,47 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:CapaPresentacion.Mantenimiento"
       mc:Ignorable="d"
-      Title="Administrativo" Height="624.375" Background="#FF80BDFB" Width="623.75">
+      Title="Administrativo" Height="758.375" Background="#FF2A72BD" Width="623.75">
 
     <Grid>
-        <Label Content="Nombre:&#xA;" HorizontalAlignment="Left" Margin="10,21,0,0" VerticalAlignment="Top" Height="27"/>
-        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="145,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <Label Content="Apellidos:&#xA;" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Height="26"/>
-        <TextBox x:Name="txtApellidos" HorizontalAlignment="Left" Height="23" Margin="145,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <Label Content="Código:&#xA;" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.579,0.192" Height="32"/>
-        <TextBox x:Name="txtCodigo" HorizontalAlignment="Left" Height="23" Margin="145,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <Label Content="Correo:" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Height="23" Margin="145,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <Label Content="Domicilio:" HorizontalAlignment="Left" Margin="9,225,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtDomicilio" HorizontalAlignment="Left" Height="23" Margin="145,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <Label Content="Lugar Nacimiento:" HorizontalAlignment="Left" Margin="9,283,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtLugarNac" HorizontalAlignment="Left" Height="23" Margin="145,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <Label Content="Fecha Nacimiento:&#xA;" HorizontalAlignment="Left" Margin="10,341,0,0" VerticalAlignment="Top" Height="28"/>
-        <DatePicker x:Name="dateFechaNac" HorizontalAlignment="Left" Margin="145,345,0,0" VerticalAlignment="Top" BorderBrush="#FF80BDFB"/>
-        <Label Content="Cargo:" HorizontalAlignment="Left" Margin="15,392,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtCargo" HorizontalAlignment="Left" Height="23" Margin="145,395,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <Label Content="Especialidad:&#xA;" HorizontalAlignment="Left" Margin="15,450,0,-64" VerticalAlignment="Top" Height="33"/>
-        <TextBox x:Name="txtEspecialidad" HorizontalAlignment="Left" Height="23" Margin="145,450,0,-54" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <Label Content="Puesto:" HorizontalAlignment="Left" Margin="17,501,0,-108" VerticalAlignment="Top" RenderTransformOrigin="0.531,0.577"/>
-        <TextBox x:Name="txtPuesto" HorizontalAlignment="Left" Height="23" Margin="145,504,0,-108" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <Label Content="Sueldo:" HorizontalAlignment="Left" Margin="17,551,0,-158" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtSueldo" HorizontalAlignment="Left" Height="23" Margin="145,554,0,-158" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <Button x:Name="btnEscribir" Content="Escribir" HorizontalAlignment="Left" Margin="336,25,0,0" VerticalAlignment="Top" Width="95" Height="23" Background="#FFBBDDFF" BorderBrush="White" Click="btnEscribir_Click"/>
-        <Button x:Name="btnLeer" Content="Leer" HorizontalAlignment="Left" Margin="336,71,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="White" Background="#FFBBDDFF" Click="btnLeer_Click_1"/>
-        <Button x:Name="btnMetodo1" Content="Metodo 1" HorizontalAlignment="Left" Margin="481,25,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo1_Click"/>
-        <Button x:Name="btnMetodo2" Content="Metodo 2" HorizontalAlignment="Left" Margin="481,71,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo2_Click"/>
-        <Button x:Name="btnMetodo3" Content="Metodo 3" HorizontalAlignment="Left" Margin="481,122,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo3_Click"/>
-        <Button x:Name="btnMetodo4" Content="Metodo 4" HorizontalAlignment="Left" Margin="481,175,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo4_Click"/>
-        <Button x:Name="btnMetodo5" Content="Metodo 5" HorizontalAlignment="Left" Margin="481,228,0,0" VerticalAlignment="Top" Width="95" Height="23" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo5_Click"/>
-        <Button x:Name="btnMetodo6" Content="Metodo 6" HorizontalAlignment="Left" Margin="481,287,0,0" VerticalAlignment="Top" Width="95" Height="22" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo6_Click"/>
-       
+        <Label Content="Nombre:&#xA;" HorizontalAlignment="Left" Margin="18,138,0,0" VerticalAlignment="Top" Height="26" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="22" Margin="153,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Apellidos:&#xA;" HorizontalAlignment="Left" Margin="18,184,0,0" VerticalAlignment="Top" Height="26" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="txtApellidos" HorizontalAlignment="Left" Height="22" Margin="153,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Código:&#xA;" HorizontalAlignment="Left" Margin="18,238,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.579,0.192" Height="32" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="txtCodigo" HorizontalAlignment="Left" Height="24" Margin="153,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Correo:" HorizontalAlignment="Left" Margin="18,288,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Height="22" Margin="153,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Domicilio:" HorizontalAlignment="Left" Margin="17,342,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="txtDomicilio" HorizontalAlignment="Left" Height="24" Margin="153,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Lugar Nacimiento:" HorizontalAlignment="Left" Margin="17,400,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="txtLugarNac" HorizontalAlignment="Left" Height="22" Margin="153,404,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Fecha Nacimiento:&#xA;" HorizontalAlignment="Left" Margin="18,458,0,0" VerticalAlignment="Top" Height="28" FontWeight="Bold" Foreground="White"/>
+        <DatePicker x:Name="dateFechaNac" HorizontalAlignment="Left" Margin="153,462,0,0" VerticalAlignment="Top" BorderBrush="#FF80BDFB"/>
+        <Label Content="Cargo:" HorizontalAlignment="Left" Margin="23,508,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="txtCargo" HorizontalAlignment="Left" Height="22" Margin="153,512,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Especialidad:&#xA;" HorizontalAlignment="Left" Margin="23,566,0,0" VerticalAlignment="Top" Height="34" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="txtEspecialidad" HorizontalAlignment="Left" Height="24" Margin="153,566,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Puesto:" HorizontalAlignment="Left" Margin="25,618,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.531,0.577" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="txtPuesto" HorizontalAlignment="Left" Height="24" Margin="153,620,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Sueldo:" HorizontalAlignment="Left" Margin="25,668,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="txtSueldo" HorizontalAlignment="Left" Height="24" Margin="153,670,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Button x:Name="btnEscribir" Content="Escribir" HorizontalAlignment="Left" Margin="344,142,0,0" VerticalAlignment="Top" Width="95" Height="22" Background="{x:Null}" BorderBrush="#FF00CEFE" Click="btnEscribir_Click" Foreground="#FF00CEFE" FontWeight="Bold"/>
+        <Button x:Name="btnLeer" Content="Leer" HorizontalAlignment="Left" Margin="344,188,0,0" VerticalAlignment="Top" Width="95" Height="22" BorderBrush="#FF00CEFE" Background="{x:Null}" Click="btnLeer_Click_1" Foreground="#FF00CEFE" FontWeight="Bold"/>
+        <Button x:Name="btnMetodo1" Content="Metodo 1" HorizontalAlignment="Left" Margin="489,142,0,0" VerticalAlignment="Top" Width="95" Height="22" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo1_Click"/>
+        <Button x:Name="btnMetodo2" Content="Metodo 2" HorizontalAlignment="Left" Margin="489,188,0,0" VerticalAlignment="Top" Width="95" Height="22" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo2_Click"/>
+        <Button x:Name="btnMetodo3" Content="Metodo 3" HorizontalAlignment="Left" Margin="489,238,0,0" VerticalAlignment="Top" Width="95" Height="24" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo3_Click"/>
+        <Button x:Name="btnMetodo4" Content="Metodo 4" HorizontalAlignment="Left" Margin="489,292,0,0" VerticalAlignment="Top" Width="95" Height="22" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo4_Click"/>
+        <Button x:Name="btnMetodo5" Content="Metodo 5" HorizontalAlignment="Left" Margin="489,344,0,0" VerticalAlignment="Top" Width="95" Height="24" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo5_Click"/>
+        <Button x:Name="btnMetodo6" Content="Metodo 6" HorizontalAlignment="Left" Margin="489,404,0,0" VerticalAlignment="Top" Width="95" Height="22" BorderBrush="#FF80BDFB" Background="WhiteSmoke" Click="btnMetodo6_Click"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="0" VerticalAlignment="Top" Width="630" Fill="#FF04C0F2"/>
+        <Label Content="Datos de Personal Administrativo" HorizontalAlignment="Left" Margin="142,31,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White" FontSize="22" Width="359"/>
+        <Separator HorizontalAlignment="Left" Height="9" Margin="135,71,0,0" VerticalAlignment="Top" Width="371" Background="White"/>
+        <Rectangle HorizontalAlignment="Left" Height="342" Margin="298,385,-24,0" VerticalAlignment="Top" Width="342">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="Diseño_sin_título__3_-removebg-preview.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Source="unnamed-removebg-preview.png"/>
     </Grid>
 </Window>

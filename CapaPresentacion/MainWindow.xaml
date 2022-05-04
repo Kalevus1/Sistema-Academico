@@ -5,27 +5,100 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CapaPresentacion"
         mc:Ignorable="d"
-        Title="Sistema Academico UAC" Height="450" Width="727.515" Foreground="White" Background="#FF5A8CE4" OpacityMask="White">
-    <Grid Margin="0,0,2,0">
+        Title="Sistema Academico UAC" Height="450" Width="818.148" Foreground="White" OpacityMask="White">
+    <Window.Background>
+        <ImageBrush Opacity="0.75" ImageSource="s.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="s.jpg" Opacity="0"/>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <Label Content="" HorizontalAlignment="Left" Margin="29,111,0,0" VerticalAlignment="Top" Height="2" Width="10"/>
-        <Menu HorizontalAlignment="Left" Height="22.5" VerticalAlignment="Top" Width="718" Grid.ColumnSpan="3" Margin="0,0,-0.485,0">
-            <MenuItem Header="Mantenimiento" Background="#FFF0F0F0">
-                <MenuItem Header="Alumno">
+        <Menu HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="810" Background="#FF194D84">
+            <MenuItem Header="Mantenimiento" Background="#FF194D84" Foreground="#FFFFFDFD">
+                <MenuItem Header="Alumno" Foreground="Black">
                     <Button x:Name="btnRegular" Content="Regular" Background="#FFF0F0F0" BorderBrush="#FFF0F0F0" Click="Button_Click"/>
                     <Button x:Name="btnIngresante" Content="Ingresante" BorderBrush="#FFF0F0F0" Background="#FFF0F0F0" Click="Button_Click_1"/>
                 </MenuItem>
                 <Button Content="Administrativo" Background="#FFF0F0F0" BorderBrush="#FFF0F0F0" Click="Button_Click_2"/>
                 <Button Content="Docente" Background="#FFF0F0F0" BorderBrush="#FFF0F0F0" Click="Button_Click_3"/>
             </MenuItem>
-            <Button Content="Proceso" BorderBrush="#FFF0F0F0" Background="#FFF0F0F0" Click="Button_Click_4"/>
-            <Button Content="Seguridad" Background="#FFF0F0F0" BorderBrush="#FFF0F0F0" Click="Button_Click_5"/>
-            <Button Content="Reportes" Background="#FFF0F0F0" BorderBrush="#FFF0F0F0" Click="Button_Click_6"/>
-            <Button Content="Ayuda" BorderBrush="#FFF0F0F0" Background="#FFF0F0F0" Click="Button_Click_7"/>
+            <Button Content="Proceso" BorderBrush="{x:Null}" Background="#FF194D84" Click="Button_Click_4" Foreground="White"/>
+            <Button Content="Seguridad" Background="#FF194D84" BorderBrush="{x:Null}" Click="Button_Click_5" Foreground="White"/>
+            <Button Content="Reportes" Background="#FF194D84" BorderBrush="{x:Null}" Click="Button_Click_6" Foreground="White"/>
+            <Button Content="Ayuda" BorderBrush="{x:Null}" Background="{x:Null}" Click="Button_Click_7" Foreground="White"/>
         </Menu>
+        <Image HorizontalAlignment="Left" Height="41" Margin="29,39,0,0" VerticalAlignment="Top" Width="124" Source="C:\Users\Kalevus\source\repos\Sistema Academico Sin Git\CapaPresentacion\Imagenes\s.png"/>
+        <Rectangle HorizontalAlignment="Left" Height="46" Margin="0,373,0,0" VerticalAlignment="Top" Width="810" Fill="#FF194D84"/>
+        <Label Content="Urb. Ingeniería Larapa Grande A-7, San Jerónimo
+" HorizontalAlignment="Left" Margin="18,378,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Separator HorizontalAlignment="Left" Height="18" Margin="313,382,0,0" VerticalAlignment="Top" Width="14" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.772"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Label Content="centraldeinformes@uandina.edu.pe" HorizontalAlignment="Left" Margin="348,378,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Separator HorizontalAlignment="Left" Height="18" Margin="580,382,0,0" VerticalAlignment="Top" Width="14" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.772"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Label Content="Copyright © 2021 U. A. C." HorizontalAlignment="Left" Margin="626,378,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="btnInicio" Content="Inicio" HorizontalAlignment="Left" Margin="215,46,0,0" VerticalAlignment="Top" Width="59" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White" FontWeight="Bold" Click="btnInicio_Click"/>
+        <Separator HorizontalAlignment="Left" Height="9" Margin="228,71,0,0" VerticalAlignment="Top" Width="30" Background="White" FontWeight="Bold"/>
+        <Separator HorizontalAlignment="Left" Height="9" Margin="308,71,0,0" VerticalAlignment="Top" Width="30" Background="White"/>
+        <Button x:Name="btnUniver" Content="Universidad+" HorizontalAlignment="Left" Margin="284,46,0,0" VerticalAlignment="Top" Width="82" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="btnUniver_Click"/>
+        <Button x:Name="btnAdmi" Content="Admision+" HorizontalAlignment="Left" Margin="388,46,0,0" VerticalAlignment="Top" Width="76" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="btnAdmi_Click"/>
+        <Separator HorizontalAlignment="Left" Height="9" Margin="409,71,0,0" VerticalAlignment="Top" Width="30" Background="White"/>
+        <Button x:Name="btnPregra" Content="Pregrado+" HorizontalAlignment="Left" Margin="478,46,0,0" VerticalAlignment="Top" Width="74" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="btnPregra_Click"/>
+        <Separator HorizontalAlignment="Left" Height="9" Margin="498,71,0,0" VerticalAlignment="Top" Width="30" Background="White"/>
+        <Button Content="Posgrado+" HorizontalAlignment="Left" Margin="564,46,0,0" VerticalAlignment="Top" Width="74" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="Button_Click_8"/>
+        <Separator HorizontalAlignment="Left" Height="9" Margin="582,71,0,0" VerticalAlignment="Top" Width="30" Background="White"/>
+        <Button x:Name="btnYou" Content="" HorizontalAlignment="Left" Margin="712,2,0,0" VerticalAlignment="Top" Width="31" BorderBrush="{x:Null}" Click="btnYou_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="C:\Users\Kalevus\source\repos\Sistema Academico Sin Git\CapaPresentacion\Imagenes\you.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnFb" Content="" HorizontalAlignment="Left" Margin="748,0,0,0" VerticalAlignment="Top" Width="25" BorderBrush="{x:Null}" Height="24" Click="btnFb_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="C:\Users\Kalevus\source\repos\Sistema Academico Sin Git\CapaPresentacion\Imagenes\ccc.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnTwi" Content="" HorizontalAlignment="Left" Margin="778,2,0,0" VerticalAlignment="Top" Width="24" BorderBrush="{x:Null}" Height="21" Click="btnTwi_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="C:\Users\Kalevus\source\repos\Sistema Academico Sin Git\CapaPresentacion\Imagenes\twi.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="711,46,0,0" VerticalAlignment="Top" Width="39" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="22" RenderTransformOrigin="0.5,0.5" Click="Button_Click_10">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush ImageSource="C:\Users\Kalevus\source\repos\Sistema Academico Sin Git\CapaPresentacion\Imagenes\lupa2-removebg-preview (1).png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnAula" Content="Aula Virtual" HorizontalAlignment="Left" Margin="522,2,0,0" VerticalAlignment="Top" Width="84" Foreground="#FF00CEFE" BorderBrush="{x:Null}" Background="{x:Null}" Click="btnAula_Click"/>
+        <Button x:Name="btnErp" Content="ERP University" HorizontalAlignment="Left" Margin="611,2,0,0" VerticalAlignment="Top" Width="82" Foreground="#FF00CEFE" Background="{x:Null}" BorderBrush="{x:Null}" Click="btnErp_Click"/>
     </Grid>
 </Window>

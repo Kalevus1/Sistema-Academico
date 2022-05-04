@@ -72,5 +72,71 @@ namespace CapaPresentacion
             MessageBox.Show("Esta pagina se encuentra en mantenimiento", "Lo sentimos",
                 MessageBoxButton.OK, MessageBoxImage.Error);
         }
+
+        private void btnInicio_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Esta pagina se encuentra en mantenimiento", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Exclamation);
+        }
+
+        private void btnUniver_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Esta pagina se encuentra en mantenimiento", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Exclamation);
+        }
+
+        private void btnAdmi_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Esta pagina se encuentra en mantenimiento", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Exclamation);
+        }
+
+        private void btnPregra_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Esta pagina se encuentra en mantenimiento", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Exclamation);
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Esta pagina se encuentra en mantenimiento", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Exclamation);
+        }
+
+        private void btnYou_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Redes sociales en mantenimiento", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+
+        private void btnFb_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Redes sociales en mantenimiento", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+
+        private void btnTwi_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Redes sociales en mantenimiento", "Lo sentimos",
+                MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+
+        private void Button_Click_10(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("El buscador se encuentra en mantenimiento", "Lo sentimos",
+                 MessageBoxButton.OK, MessageBoxImage.Hand);
+        }
+
+        private void btnAula_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Aula Virtual en mantenimiento", "Lo sentimos",
+                 MessageBoxButton.OK, MessageBoxImage.Hand);
+        }
+
+        private void btnErp_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("ERP University en mantenimiento", "Lo sentimos",
+                 MessageBoxButton.OK, MessageBoxImage.Hand);
+        }
     }
 }
